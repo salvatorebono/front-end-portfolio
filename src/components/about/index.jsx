@@ -1,4 +1,5 @@
 import clsx from "clsx";
+import Link from "next/link";
 
 /* ItemLayout è un componente DRY (Don't Repeat Yourself). Serve a ridurre la ridondanza e a migliorare la leggibilità del codice */
 const ItemLayout = ({ children, className }) => {
@@ -79,12 +80,18 @@ const AboutDetails = () => {
         </ItemLayout>
 
         <ItemLayout className={"col-span-6 !p-0"}>
-          <img
-            className="w-full h-auto"
-            src="https://github-readme-stats.vercel.app/api/pin/?username=salvobono&repo=front-end-portfolio&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2"
-            alt="SalvoBono"
-            loading="lazy"
-          />
+          <Link
+            href="https://github.com/salvobono/front-end-portfolio"
+            target="_blank"
+            className="w-full"
+          >
+            <img
+              className="w-full h-auto"
+              src={`https://github-readme-stats.vercel.app/api/pin/?username=salvobono&repo=front-end-portfolio&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
+              alt="SalvoBono"
+              loading="lazy"
+            />
+          </Link>
         </ItemLayout>
       </div>
     </section>
