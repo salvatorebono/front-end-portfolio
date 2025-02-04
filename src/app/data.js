@@ -1,3 +1,14 @@
+export const projectsData = [
+  {
+    id: 1,
+    name: "Work In Progress",
+    description: "Work in progress",
+    date: "2025-03-01",
+    demoLink: "https://workinprogress.example.com",
+  },
+
+];
+
 export const BtnList = [
   { label: "Home", link: "/", icon: "home", newTab: false },
   { label: "About", link: "/about", icon: "about", newTab: false },
