@@ -46,8 +46,8 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-4 !p-0"}>
           <img
             className="w-full h-auto"
-            src="https://github-readme-stats.vercel.app/api/top-langs?username=salvobono&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
-            alt="SalvoBono"
+            src="https://github-readme-stats.vercel.app/api/top-langs?username=salvatorebono&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
+            alt="SalvatoreBono"
             loading="lazy"
           />
         </ItemLayout>
@@ -55,8 +55,8 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-8 !p-0"}>
           <img
             className="w-full h-auto"
-            src="https://github-readme-stats.vercel.app/api?username=salvobono&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
-            alt="SalvoBono"
+            src="https://github-readme-stats.vercel.app/api?username=salvatorebono&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
+            alt="SalvatoreBono"
             loading="lazy"
           />
         </ItemLayout>
@@ -65,7 +65,7 @@ const AboutDetails = () => {
           <img
             className="w-full h-auto"
             src="https://skillicons.dev/icons?i=mysql,php,sass,js,bootstrap,css,html,git,github,nodejs,npm,vue,laravel,java,react,nextjs,tailwind,threejs,vite,vscode,idea"
-            alt="SalvoBono"
+            alt="SalvatoreBono"
             loading="lazy"
           />
         </ItemLayout>
@@ -73,22 +73,22 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-6 !p-0"}>
           <img
             className="w-full h-auto"
-            src="https://streak-stats.demolab.com?user=salvobono&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B"
-            alt="SalvoBono"
+            src="https://streak-stats.demolab.com?user=salvatorebono&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B"
+            alt="SalvatoreBono"
             loading="lazy"
           />
         </ItemLayout>
 
         <ItemLayout className={"col-span-6 !p-0"}>
           <Link
-            href="https://github.com/salvobono/front-end-portfolio"
+            href="https://github.com/salvatorebono/front-end-portfolio"
             target="_blank"
             className="w-full"
           >
             <img
               className="w-full h-auto"
-              src={`https://github-readme-stats.vercel.app/api/pin/?username=salvobono&repo=front-end-portfolio&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
-              alt="SalvoBono"
+              src={`https://github-readme-stats.vercel.app/api/pin/?username=salvatorebono&repo=front-end-portfolio&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
+              alt="SalvatoreBono"
               loading="lazy"
             />
           </Link>

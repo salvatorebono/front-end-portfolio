@@ -16,13 +16,13 @@ export const BtnList = [
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
   {
     label: "Github",
-    link: "https://github.com/salvobono",
+    link: "https://github.com/salvatorebono",
     icon: "github",
     newTab: true,
   },
   {
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/salvobono",
+    link: "https://www.linkedin.com/in/bonosalvatore",
     icon: "linkedin",
     newTab: true,
   },
