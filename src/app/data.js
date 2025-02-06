@@ -27,6 +27,12 @@ export const BtnList = [
     newTab: true,
   },
   {
+    label: "X",
+    link: "https://x.com/salvatorebcodes",
+    icon: "twitter",
+    newTab: true,
+  },
+  {
     label: "Resume",
     link: "/Salvatore_Bono_Resume.pdf",
     icon: "resume",

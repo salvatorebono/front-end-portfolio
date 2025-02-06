@@ -54,7 +54,6 @@ export default function Form() {
 
     sendEmail(templateParams);
   };
-  console.log(errors);
 
   return (
     <>
