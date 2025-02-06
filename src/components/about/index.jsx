@@ -1,19 +1,5 @@
-import clsx from "clsx";
 import Link from "next/link";
-
-/* ItemLayout è un componente DRY (Don't Repeat Yourself). Serve a ridurre la ridondanza e a migliorare la leggibilità del codice */
-const ItemLayout = ({ children, className }) => {
-  return (
-    <div
-      className={clsx(
-        "custom-bg p-6 sm:p-8 rounded-xl flex items-center justify-center space-y-8",
-        className
-      )}
-    >
-      {children}
-    </div>
-  );
-};
+import ItemLayout from "./ItemLayout";
 
 const AboutDetails = () => {
   return (

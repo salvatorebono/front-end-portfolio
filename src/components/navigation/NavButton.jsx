@@ -1,4 +1,5 @@
 import clsx from "clsx";
+import { motion } from "framer-motion";
 import {
   Github,
   Home,
@@ -36,6 +37,13 @@ const getIcon = (icon) => {
   }
 };
 
+const item = {
+  hidden: { scale: 0 },
+  show: { scale: 1 },
+};
+
+const NavLink = motion(Link);
+
 const NavButton = ({
   x,
   y,
@@ -53,7 +61,8 @@ const NavButton = ({
             className="absolute z-50 cursor-pointer"
             style={{ transform: `translate(${x}, ${y})` }}
           >
-            <Link
+            <NavLink
+              variants={item}
               href={link}
               target={newTab ? "_blank" : "_self"}
               className="text-foreground rounded-full flex items-center justify-center custom-bg"
@@ -69,11 +78,12 @@ const NavButton = ({
                   {label}
                 </span>
               </span>
-            </Link>
+            </NavLink>
           </div>
         ) : (
           <div className="w-fit z-50 cursor-pointer">
-            <Link
+            <NavLink
+              variants={item}
               href={link}
               target={newTab ? "_blank" : "_self"}
               className="text-foreground rounded-full flex items-center justify-center custom-bg"
@@ -94,7 +104,7 @@ const NavButton = ({
                   {label}
                 </span>
               </span>
-            </Link>
+            </NavLink>
           </div>
         );
       }}
