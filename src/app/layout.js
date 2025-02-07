@@ -1,5 +1,6 @@
 import FireFliesBackground from "@/components/FireFliesBackground";
 import Sound from "@/components/Sound";
+import { Analytics } from "@vercel/analytics/react";
 import clsx from "clsx";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -32,6 +33,7 @@ export default function RootLayout({ children }) {
         <FireFliesBackground />
         <Sound />
         <div id="my-modal" />
+        <Analytics />
       </body>
     </html>
   );
