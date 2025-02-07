@@ -12,6 +12,11 @@ ssr: false: Non eseguire il rendering lato server (SSR) per il componente. Quest
 
 const Staff = dynamic(() => import("@/components/models/Staff"), { ssr: false })
 
+export const metadata = {
+   title: "Salvatore Bono | Projects",
+};
+
+
 export default function Home() {
    return (
       <>

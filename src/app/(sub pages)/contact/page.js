@@ -2,6 +2,11 @@ import Form from "@/components/contact/Form";
 import Image from "next/image";
 import bg from "../../../../public/background/contact-background.png";
 
+export const metadata = {
+   title: "Salvatore Bono | Contact",
+};
+
+
 export default function Contact() {
    return (
       <>
