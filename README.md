@@ -2,7 +2,7 @@
 
 ## Video of The Portfolio Website:
 
-![Demo](./demo.mp4)
+![Demo](https://github.com/salvatorebono/front-end-portfolio/blob/main/demo.mp4)
 
 #### 3D Models
 
