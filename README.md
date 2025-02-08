@@ -1,9 +1,5 @@
 # Portfolio Website with Next.js, Three.js, and Tailwind CSS 🔥
 
-## Video of The Portfolio Website:
-
-![Demo](https://github.com/salvatorebono/front-end-portfolio/blob/main/demo.mp4)
-
 #### 3D Models
 
 - ["Tim Mckee - Boy Wizard"](https://skfb.ly/6YATu) by [elbertwithane is licensed under Creative Commons Attribution ](http://creativecommons.org/licenses/by/4.0/).
