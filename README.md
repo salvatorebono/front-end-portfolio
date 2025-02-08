@@ -15,10 +15,10 @@
 ![Next.js Creative Portfolio Website Contact Page](https://github.com/salvatorebono/front-end-portfolio/blob/main/website%20images/Contact-desktop.png)
 
 #### Mobile Version
-![Nextjs Creative Portfolio Website Mobile](https://github.com/salvatorebono/front-end-portfolio/blob/main/website%20images/Home-mobile.png)
-![Nextjs Creative Portfolio Website About Page Mobile](https://github.com/salvatorebono/front-end-portfolio/blob/main/website%20images/About-mobile.png)
-![Next.js Creative Portfolio Website Projects Page Mobile](https://github.com/salvatorebono/front-end-portfolio/blob/main/website%20images/Projects-mobile.png)
-![Next.js Creative Portfolio Website Contact Page Mobile](https://github.com/salvatorebono/front-end-portfolio/blob/main/website%20images/Contact-mobile.png)
+![Next.js Creative Portfolio Website Contact Page](https://github.com/salvatorebono/front-end-portfolio/blob/main/website%20images/Home-mobile.png)
+![Next.js Creative Portfolio Website Contact Page](https://github.com/salvatorebono/front-end-portfolio/blob/main/website%20images/About-mobile.png)
+![Next.js Creative Portfolio Website Contact Page](https://github.com/salvatorebono/front-end-portfolio/blob/main/website%20images/Projects-mobile.png)
+![Next.js Creative Portfolio Website Contact Page](https://github.com/salvatorebono/front-end-portfolio/blob/main/website%20images/Contact-mobile.png)
 
 ## Resources Used in This Project
 
